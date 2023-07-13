@@ -1,5 +1,7 @@
 #include <stdio.h>
 /*
+ * main - entry point
+ *
  * Description - programme that prints using printf
  *
  * Return : 0 (Always a success)
