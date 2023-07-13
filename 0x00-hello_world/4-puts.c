@@ -3,14 +3,13 @@
 /**
  * main - Entry point
  *
- * description - print using puts
+ * Description: program that prints with puts function
  *
- * return : 0 (Always a success)
- */
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
 	return (0);
 }
