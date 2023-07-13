@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
- * Description - programme that prints using puts
+ * description - print using puts
  *
- * Return : Always 0 (success)
-*/
+ * return : 0 (Always a success)
+ */
 
 int main(void)
 {
