@@ -2,15 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Entry point
  *
  * description - Code that ptints whether number is positive, negative or zero
  *
  * Return: Always 0 (Success)
-*/
+ */
+
 int main(void)
 {
+
 	int n;
 
 	srand(time(0));
