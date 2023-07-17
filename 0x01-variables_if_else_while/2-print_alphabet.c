@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *
  * description - print the alphabet
@@ -12,7 +11,6 @@
 int main(void)
 {
 	char alp = 'a';
-	
 	while (alp <= 'z')
 	{
 		putchar (alp);

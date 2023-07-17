@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main- Entry point
+/**
+ * main - Entry point
  *
- * description - Programprints last number of a number
+ * Description: Print the last digit of random number generated.
  *
  * Return: Always 0 (Success)
  */
@@ -16,14 +16,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	digit = n % 10;
-	
+	digit = n % 10;/*finds the last digit*/
+
 	if (digit > 5)
 	printf("Last digit of %d is %d and is greater than 5\n", n, digit);
 	else if (digit == 0)
 	printf("Last digit of %d is %d and is 0\n", n, digit);
-	else if(digit < 6 && digit != 0)
+	else if (digit < 6 && digit != 0)
 	printf("Last digit of %d is %d and is less than 6 but not 0\n", n, digit);
 	return (0);
 }
