@@ -3,23 +3,23 @@
 /**
  * print_sign - Entry point
  *
- * print_sign: function that prints sign of number
+ * @n: function that prints sign of number
  *
- * Return: 
+ * Return: 0, - or + (Success)
  */
 
 int print_sign(int n)
 {
 	if (n == 0)
 	{
-		putchar ('0');
+		_putchar ('0');
 	}
 	else if  (n > 0)
 	{
-		putcharv('+');
+		_putchar ('+');
 	}
 	else
 	{
-		putchar ('-');
+		_putchar ('-');
 	}
 }
