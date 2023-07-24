@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 
-int swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int c;
 
