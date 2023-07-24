@@ -1,5 +1,5 @@
-#define <stdio.h>
-#define "main.h"
+#include <stdio.h>
+#include "main.h"
 
 /**
  * _strlen - length of a given string
