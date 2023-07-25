@@ -10,11 +10,23 @@
 
 void puts_half(char *str)
 {
-	int string;
+	int string = 0, n, i;
 
-	if (string == %10);
-	_putchar (string);
-	string++;
-
-	return (0);
+	while (str[string] != '\0')
+	{
+		string++;
+	}
+	if (string % 2 == 0)
+	{
+		for (u = string/2; str[i] !='0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	}
+	else if (string % 2)
+	{
+		for (n=(len-1)/2; n < len - 1; n++)
+			_purchar(str[n+1]);
+	}
+	_putchar('\n');
 }
