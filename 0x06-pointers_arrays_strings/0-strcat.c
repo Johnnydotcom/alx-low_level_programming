@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate 2 strings
- * @dest: string to be appended
- * @src: string to append
+ * _strcat - append file
+ * @dest: appended
+ * @src: file being appended
  *
- * Return: Always 0 (Success)
+ * Return: dest (Success)
  */
 
 char *_strcat(char *dest, char *src)
