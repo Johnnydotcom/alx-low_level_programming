@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenate 2 strings
+ * _strcat - concatenate 2 strings
  * @dest: string to be appended
  * @src: string to append
  *
@@ -10,15 +10,18 @@
  */
 
 char *_strcat(char *dest, char *src)
-{       
-       int a, b;
-       
-       a = 0;
+{
+	int a, b;
 
-       while (dest[a])
-	       a++;
-       for (b = 0; src[b]; b++)
+	a = 0;
 
-	       dest[a++] = src[b++];
-       return (dest);
+	while (dest[a])
+		a++;
+
+	for (b = 0; src[b])
+		b++;
+
+	dest[a++] = src[b++];
+
+	return (dest);
 }
