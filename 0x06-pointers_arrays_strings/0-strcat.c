@@ -1,27 +1,28 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _strcat - append file
- * @dest: appended
- * @src: file being appended
+ * _strcat - concatenates two strings
  *
- * Return: dest (Success)
+ * @dest: to be concatenated
+ *
+ * @src: to be concatenated
+ *
+ * Return: return (dest) success
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int a, b;
-
-	a = 0;
+	int a = 0;
+	int b = 0;
 
 	while (dest[a] != '\0')
 		a++;
-
-	for (b = 0; src[b] != '\0')
+	while (src[b] != '\0')
+	{
+		dest[a] = src[b];
+		a++;
 		b++;
-
-	dest[a++] = src[b++];
+	}
 
 	return (dest);
 }
