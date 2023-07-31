@@ -5,7 +5,7 @@
  * @dest - memory area to copied too
  * @src - memory area to be copied
  * @n - number of bytes to be copied
- *i
+ *
  * Return: (dest)
  */
 
