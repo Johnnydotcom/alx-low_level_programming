@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy - Entry point
+ * *_memcpy - Entry point
  * @dest: memory area to be copied to
  * @src: memory area to be copied
  * @n: characters to be copied

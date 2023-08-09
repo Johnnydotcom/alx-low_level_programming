@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strstr - entry point
+ * *_strstr - entry point
  * @haystack: string to be scanned
  * @needle: small string to searched within haystack string
  *

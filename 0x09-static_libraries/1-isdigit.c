@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - Entry point
- * @c:int to be checked+
+ * @c:int to be checked
  *
  * Return: Always 0 (success)
  */

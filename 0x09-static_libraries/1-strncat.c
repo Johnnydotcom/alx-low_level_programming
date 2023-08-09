@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - Entry point
+ * *_strncat - Entry point
  * @dest: pointer to designated array
  * @src: string to be appended
  * @n: maximum number of characters to be appended

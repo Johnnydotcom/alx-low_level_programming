@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk -  entry point
+ * *_strpbrk -  entry point
  * @s: string to be scanned
  * @accpet: string containing character to be matched
  *

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - Entry point
+ * *_strcat - Entry point
  * @dest: pointer
  * @src: to be appended
  *
